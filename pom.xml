@@ -8,8 +8,8 @@
   <name>KeepNote-Step1-Boilerplate Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
-   <!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
-		
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
+
 
 		<!-- dependency for JUNIT 4 to be added -->
 		<dependency>
@@ -28,7 +28,7 @@
 		</dependency>
 
 		<!-- Dependency for JSTL to be added -->
-		
+
 		<!-- Dependency for jaxb-api to be added(if using JDK9) -->
 
 		<!-- Dependency for jaxb-impl to be added(if using JDK9) -->
@@ -54,13 +54,20 @@
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
-			<version>4.0.0</version>
-			<scope>provided</scope>
+			<version>4.0.0</version>			
 		</dependency>
 
-  </dependencies>
-  <build>
-  <pluginManagement>
+		<!-- https://mvnrepository.com/artifact/jstl/jstl -->
+		<dependency>
+			<groupId>jstl</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+
+
+	</dependencies>
+	<build>
+		<pluginManagement>
 			<plugins>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
@@ -83,6 +90,6 @@
 				</plugin>
 			</plugins>
 		</pluginManagement>
-    <finalName>KeepNote-Step1-Boilerplate</finalName>
-  </build>
+		<finalName>KeepNote-Step1-Boilerplate</finalName>
+	</build>
 </project>
